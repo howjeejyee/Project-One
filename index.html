@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/card-library/css/cardstarter.css" rel="stylesheet" type="text/css" />
+  <title>Blackjack Game</title>
+</head>
+
+<body>
+  <h1>♠ <span class="red">♥</span> Blackjack Game ♣ <span class="red">♦</span></h1>
+  <h4><p>Place your bets:</p></h4>
+  <div id="balance-bet">
+    <p><input id="bet-box" type="number" placeholder="Enter your amount"></p>
+    <button id="deal-button">Deal</button>
+  </div>
+  <div id= "balance-container">
+    <h4><p id="balance-name">Balance:</p></h4>
+    <p id="balance-balance">$1000</p>
+  </div>
+  <div id="dealer">
+    <h2>Dealer:</h2>
+    <span id="dealer-hand"></span>
+    <p id="dealer-point"></p>
+    <p id="dealer-total">Dealer Total: </p>
+  </div>
+  <div id="Player">
+    <h2>Player:</h2>
+    <span id="player-hand"></span>
+    <p id="player-point"></p>
+    <p id="player-total">Player Total: </p>
+  </div>
+  <button id="hit-button">Hit</button>
+  <button id="stand-button">Stand</button>
+  <button id="double-button">Double</button>
+  <div id="result">
+    <p id="message-result"> </p>
+    <button id="next-button">Next Game</button>
+    <button id="reset-button">Reset</button>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
