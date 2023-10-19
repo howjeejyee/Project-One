@@ -3,6 +3,12 @@
 # Project Description
 **Blackjack** is a popular card game that played in casinos. As the rules are simple and easily to learn, it will make your heartbeat go fast when you are trying to hit a card that you wanted to beat the **Dealer** or **Player** will try not to get busted by going over 21 point, which is why some places **Blackjack** is call **21** too! In this project I have make a simple Blackjack game that let **Player** able to heads up against **Dealer** on a one on one situation. For **Player** that is new to this game you may read the **Guidelines** in the next section.
 
+# Technologies Used
+
+* HTML
+* CSS
+* Javascript
+
 # Guidelines
 In this project, player will start with a balance of *$1000*. Player then will need to place their bet by key in the amount that is within *$1000* before starting the game. After the bet have been placed, Player should click on the **Deal Button** to initiate and start the game. Player and Dealer will then be dealt 2 cards and **Hit Button**, **Stand Button** and **Double Button** will appear after the game start. The way to win this game is try to keep your total point of your card below 21 and if your total point is over 21, you are busted and will lose the game. After both player have enough total points, they will have to compete with each other and the person with the higher point that is not over 21 will be the winner. After the winner have been confirmed, **Next Game Button** and **Reset Button** will be shown and Player would have to make a decision here. There are various of buttons with different functions that will be explained below on how to use these buttons.
 
@@ -54,8 +60,9 @@ As the gameplay of Blackjack is display, there are still some area I wish to str
 
 1. Implement the card library so when the card is dealt, it will not only show the value of the card, it will also have image on it.
 2. Restricting the betting part by implementing *Chips System*, where Player can only bet using the chip.
-3. Making the game into multiplayer.
-4. Adding sound effect when Player win or lose.
+3. Upgrading the gameplay, such as either Player or Dealer gets 21 points, or what we call Blackjack will directly wins the game when only be deal two cards. Player will get 1.5 multiplier when they win it this way.
+4. Making the game into multiplayer.
+5. Adding sound effect when Player win or lose.
 
 This are my current planning to update this project in the future. Hope you all enjoy the game and have fun!
 
