@@ -6,3 +6,61 @@ html {
     color: red;
   }
   
+  h1 {
+    color: black;
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    border: 12px solid black;
+  }
+  
+  .header {
+    white-space: nowrap; 
+    overflow: hidden; 
+    padding: 10px;
+    animation:linear infinite;
+  }
+  
+  .subtitle, h2 {
+    font-size: 30px;
+  }
+  
+  .card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      border: 4px dotted black;
+      padding: 10px;
+  }
+  
+  #dealer-total, #player-total {
+    font-size: 20px;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    color: lightgray;
+    text-align: center;
+    background:url("https://i.imgur.com/ZmPm4mb.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  input {
+    font-size:18px;
+    padding:10px;
+    border: 0;
+  }
+  
+  button {
+    font-size: 20px;
+    color: white;
+    background-color:cadetblue;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
